@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+
+#this will find the average request count for an ELB from CloudWatch metrics over the course of time and period specificed. 
 require 'aws-sdk'
 
 
