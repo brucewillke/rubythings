@@ -15,7 +15,7 @@ instances = resp[:instance_status_set].map { |i| i[:instance_id] }
 
 
 notifier = Slack::Notifier.new "WEBHOOKSURL"
-notifier.channel  = '#sysops-notifications'
+notifier.channel  = '#notifications'
 notifier.username = 'aws-events-status'
 
 
